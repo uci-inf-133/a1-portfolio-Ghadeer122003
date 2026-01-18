@@ -360,6 +360,20 @@ main {
   font-size: clamp(1.8rem, 3vw, 2.6rem);
 }
 
+.resume-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.resume-frame {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 12px;
+}
+
+
 /* responsive */
 @media (max-width: 900px) {
   .page-layout {
@@ -505,6 +519,73 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.project-detail-img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.25rem;
+  border-radius: 18px;
+}
+
+/* universal: media never overflow */
+img, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* page content should be allowed to shrink inside grid */
+.page-content, .about-text {
+  min-width: 0;
+}
+
+/*  projects grid: 3 on desktop, 2 on tablet, 1 on phone */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (max-width: 1000px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*  for pages using .page-layout (contact/projects/details/resume pages) */
+@media (max-width: 900px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .about-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0; /* prevents weird vertical offset on mobile */
+  }
+
+  .page-title {
+    text-align: center;
+  }
+}
+
+/* make project preview cards consistent */
+.project-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 18px;
 }
 
 
