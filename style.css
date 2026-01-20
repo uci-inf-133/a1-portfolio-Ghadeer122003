@@ -102,8 +102,7 @@ body {
   fill: currentColor;
 }
 
-/* ========== MAIN / ABOUT ========== */
-/* remove default spacing constraints */
+
 main {
   max-width: none;
   margin: 0;
@@ -304,7 +303,7 @@ main {
 /* PROJECTS GRID */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(1.5rem, 3vw, 2.5rem);
   align-items: start;
 }
@@ -427,9 +426,6 @@ main {
 }
 
 /* CONTACT INFO PAGE (no form) */
-.contact-info {
-  max-width: 42ch;
-}
 
 .contact-line {
   margin: 0 0 1.8rem;
@@ -482,10 +478,9 @@ main {
 }
 
 @media (max-width: 900px) {
-  .contact-page .about-nav {
-    padding-top: 0;
-  }
+  .page-content { padding-top: 0.5rem; }
 }
+
 
 
 
