@@ -501,25 +501,19 @@ main {
   opacity: 1;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+/* RESPONSIVE (projects only) */
+@media (max-width: 1000px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
-
-  .project-img {
-    height: 260px;
-  }
-
-  .project-detail-img {
-    height: 260px;
-  }
-
-  .project-detail {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
+
 .project-detail-img{
   width: 100%;
   max-width: 300px;
