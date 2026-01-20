@@ -137,7 +137,7 @@ main {
 /* Layout: left list + right text */
 .about-layout {
   display: grid;
-  grid-template-columns: 220px minmax(520px, 780px);
+  grid-template-columns: 220px minmax(0, 780px);
   gap: clamp(2.5rem, 5vw, 6rem);
   align-items: start;
   justify-content: center;
@@ -241,99 +241,6 @@ main {
     font-size: 1.02rem;
   }
 }
-
-/* CONTACT */
-.contact {
-  width: 100%;
-  min-height: 100vh;
-  padding: 6rem 6vw;
-  background: rgba(248, 245, 239, 0.72);
-  backdrop-filter: blur(7px);
-  border: none;
-  border-radius: 0;
-}
-
-.contact-page .about-nav {
-  padding-top: 6.5rem;
-}
-
-.contact h2 {
-  text-align: center;
-  margin: 0 0 3.5rem;
-  font-family: "Playfair Display", "Didot", "Bodoni MT", Georgia, serif;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  font-size: clamp(1.8rem, 3vw, 2.6rem);
-}
-
-.contact-form {
-  width: min(52rem, 100%);
-  margin: 0 auto;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 3rem;
-}
-
-.contact-form span {
-  display: inline-block;
-  margin-bottom: 0.75rem;
-  font-size: 0.95rem;
-  letter-spacing: 0.03em;
-  opacity: 0.9;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid rgba(27, 27, 27, 0.55);
-  background: transparent;
-  color: #1b1b1b;
-  font-size: 1.05rem;
-  padding: 0.6rem 0;
-  outline: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.contact-form textarea {
-  resize: vertical;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-bottom-color: rgba(27, 27, 27, 0.9);
-}
-
-.send-btn {
-  border: 1px solid rgba(27, 27, 27, 0.35);
-  background: transparent;
-  padding: 0.9rem 1.6rem;
-  border-radius: 999px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.send-btn:hover,
-.send-btn:focus-visible {
-  outline: none;
-  border-color: rgba(18, 88, 74, 0.55);
-  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
-/* Keep layout nice on smaller screens */
-@media (max-width: 800px) {
-  .contact {
-    padding: 5rem 7vw;
-  }
-  .contact-form label {
-    margin-bottom: 2.4rem;
-  }
-}
-
 /* shared page layout (used by contact/projects/research pages) */
 .contact-page {
   width: 100%;
@@ -345,7 +252,7 @@ main {
 
 .page-layout {
   display: grid;
-  grid-template-columns: 220px minmax(520px, 780px);
+  grid-template-columns: 220px minmax(0, 780px);
   gap: clamp(2.5rem, 5vw, 6rem);
   align-items: start;
   justify-content: center;
@@ -441,15 +348,6 @@ main {
   max-width: 62ch;
 }
 
-.project-detail-img {
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 18px;
-  border: 1px solid rgba(0,0,0,0.10);
-  margin-bottom: 1.5rem;
-}
-
 .project-detail-text {
   font-size: 1.1rem;
   line-height: 1.85;
@@ -521,6 +419,7 @@ main {
   display: block;
   margin: 0 auto 1.25rem;
   border-radius: 18px;
+  border: 1px solid rgba(0,0,0,0.10);
 }
 
 /* CONTACT INFO PAGE (no form) */
@@ -574,6 +473,16 @@ main {
     font-size: 1rem;
   }
 }
+.contact-page .about-nav {
+  padding-top: 6.5rem;
+}
+
+@media (max-width: 900px) {
+  .contact-page .about-nav {
+    padding-top: 0;
+  }
+}
+
 
 
 
