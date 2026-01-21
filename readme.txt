@@ -73,10 +73,10 @@ It took me approximately 12–15 hours to complete this assignment.
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
 I used a mix of design inspiration websites, validation tools, and AI assistance while working on this assignment. 
-For visual inspiration (colors, layout ideas, and overall style), I browsed Pinterest and looked at sample portfolio websites to understand how personal portfolios are commonly structured.
-I also used the Sherwin-Williams sample site to help guide my color palette and overall visual style. To check correctness and formatting, 
-I used several W3C tools, including the W3C HTML Validator, the W3C CSS Validator, and the AChecker accessibility validator to make sure my pages were valid and accessible.
-I also used ChatGPT as a coding and support tool during the assignment. ChatGPT helped generate and revise portions of the HTML and CSS, suggested solutions for layout and responsiveness, and helped explain validation and accessibility warnings. 
+For visual inspiration, I browsed Pinterest and looked at sample portfolio websites to understand how personal portfolios are commonly structured.
+I also used the Sherwin-Williams sample site to help guide my color palette.
+To check correctness and formatting, I used several W3C tools, including the W3C HTML Validator, the W3C CSS Validator, and the AChecker accessibility validator.
+I also used ChatGPT as a coding and support tool during the assignment. ChatGPT helped generate and revise portions of the HTML and CSS, suggested solutions for layout and responsiveness.
 I reviewed, edited, and integrated this code into my project to match the assignment requirements and my own design choices.
 
 Specific resources used:
@@ -93,7 +93,7 @@ Specific resources used:
 
 6. https://achecks.org/checker/index.php
 
-7. ChatGPT (for clarification and guidance)
+7. ChatGPT (Update: I used it to help me with my code as well regarding styling & placement of things in my main pages)
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
