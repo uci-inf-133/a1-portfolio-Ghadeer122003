@@ -44,7 +44,26 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
+I did not ignore any errors or likely problems.
+I fixed everything until all pages showed 0 Known Problems and 0 Likely Problems in AChecker. 
+The only messages left were Potential Problems, which need manual review.
 
+--> The most common potential warnings were:
+
+* Image alt text warnings: The checker flagged images even though all images already have clear and descriptive alt text and do not contain important text.
+
+* Text direction warnings: These appeared even though the entire site is written in English and does not switch languages or text direction.
+
+* Heading usage warnings: Some headings were flagged as possibly being used for styling, but they are actually used to organize and structure the content on each page.
+
+* Navigation and link grouping warnings: The checker warned that link groups might not be marked, but the navigation menu is consistent and clearly labeled on every page.
+
+* Skip link and sitemap warnings: These were flagged because the site does not include a skip link or sitemap. Since the portfolio is small and easy to navigate, this does not cause real accessibility issues.
+
+* Language identification warnings: AChecker warned that some words might not be identified as English, even though the document language is already set to English.
+
+After reviewing these manually, I decided they do not negatively affect accessibility for this project. 
+Because they were only potential warnings and repeated across pages, I explained them instead of changing the site structure unnecessarily.
 
 4. How long, in hours, did it take you to complete this assignment?
 
