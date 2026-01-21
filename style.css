@@ -1,4 +1,3 @@
-/* ========== base ========== */
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
@@ -8,8 +7,6 @@ body {
   color: #1b1b1b;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-/* ========== HERO (first page only) ========== */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -19,21 +16,17 @@ body {
   text-align: center;
   position: relative;
 }
-
-/* soft overlay so text is readable (ONLY in hero) */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(248, 245, 239, 0.72);
 }
-
 .hero h1,
 .hero .open-btn,
 .hero .social-links {
-  position: relative; /* sits above overlay */
+  position: relative;
 }
-
 .hero h1 {
   margin: 0;
   font-family: "Playfair Display", "Didot", "Bodoni MT", Georgia, serif;
@@ -300,7 +293,6 @@ main {
   
 }
 
-/* PROJECTS GRID */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -346,7 +338,6 @@ main {
   text-decoration-thickness: 2px;
 }
 
-/* PROJECT DETAIL PAGE */
 .project-detail {
   max-width: 62ch;
 }
@@ -424,8 +415,6 @@ main {
   border-radius: 18px;
   border: 1px solid rgba(0,0,0,0.10);
 }
-
-/* CONTACT INFO PAGE (no form) */
 
 .contact-line {
   margin: 0 0 1.8rem;

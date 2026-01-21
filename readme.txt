@@ -10,27 +10,35 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
+* I included multiple HTML pages (Home, About, Projects, Resume, and Contact) with clear navigation between them.
+* The pages use proper headings and paragraph text to organize content. 
+* I also included images with descriptive alt text and links to external sites such as LinkedIn and GitHub.
 
 
 (b) CSS features
 
+* I used CSS to control spacing, margins, and alignment to make the layout clean and readable.
+* I applied consistent colors and typography across all pages and used a custom font to improve the overall look of the site.
+* The layout adjusts using CSS to stay readable on different screen sizes.
 
 
 (c) Advanced features
 
+* I implemented a more complex page layout by using a persistent sidebar navigation menu that appears across pages. 
+* The site is fully responsive and adapts to desktop, tablet, and mobile screen sizes using CSS layout techniques.
 
 
 
@@ -40,15 +48,40 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 4. How long, in hours, did it take you to complete this assignment?
 
+It took me approximately 12–15 hours to complete this assignment.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
+I used a mix of design inspiration websites, validation tools, and AI assistance while working on this assignment. 
+For visual inspiration (colors, layout ideas, and overall style), I browsed Pinterest and looked at sample portfolio websites to understand how personal portfolios are commonly structured.
+I also used the Sherwin-Williams sample site to help guide my color palette and overall visual style. To check correctness and formatting, 
+I used several W3C tools, including the W3C HTML Validator, the W3C CSS Validator, and the AChecker accessibility validator to make sure my pages were valid and accessible.
+I also used ChatGPT as a coding and support tool during the assignment. ChatGPT helped generate and revise portions of the HTML and CSS, suggested solutions for layout and responsiveness, and helped explain validation and accessibility warnings. 
+I reviewed, edited, and integrated this code into my project to match the assignment requirements and my own design choices.
+
+Specific resources used:
+
+1. Pinterest (design inspiration)
+
+2. https://samples.sherwin-williams.com/
+
+3. https://www.portfoliobox.com/examples
+
+4. https://validator.w3.org/
+
+5. https://jigsaw.w3.org/css-validator/
+
+6. https://achecks.org/checker/index.php
+
+7. ChatGPT (for clarification and guidance)
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
+I asked two friends to show me their portfolio designs so I could get inspiration for layout and styling ideas.
 
+7. Is there anything special we need to know in order to run your code? 
 
-7. Is there anything special we need to know in order to run your code?
+No. The site runs by opening index.html in a browser.
 
