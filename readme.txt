@@ -39,8 +39,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 * I implemented a more complex page layout by using a persistent sidebar navigation menu that appears across pages. 
 * The site is fully responsive and adapts to desktop, tablet, and mobile screen sizes using CSS layout techniques.
-
-
+** Please note: I went for a clean and minimalist design on purpose. I didn’t want the site to feel crowded or overwhelming. **
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
@@ -94,7 +93,6 @@ Specific resources used:
 6. https://achecks.org/checker/index.php
 
 7. ChatGPT (Update: I used it to help me with my code as well regarding styling & placement of things in my main pages)
-
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
