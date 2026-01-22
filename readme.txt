@@ -40,7 +40,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 * I implemented a more complex page layout by using a persistent sidebar navigation menu that appears across pages. 
 * The site is fully responsive and adapts to desktop, tablet, and mobile screen sizes using CSS layout techniques.
 * I used responsive social media icons (GitHub and LinkedIn) instead of text links, and styled them with CSS to work on different screen sizes.
-** Please note: I went for a clean and minimalist design on purpose. I didn’t want the site to feel crowded or overwhelming. **
+* Please note: I went for a clean and minimalist design on purpose. I didn’t want the site to feel crowded or overwhelming.
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
